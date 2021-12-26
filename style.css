@@ -1,0 +1,133 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(90deg,#000000 0%,#888888 50%, #464646 100%);;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline white;
+    font-size: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+txt {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+pre {
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0);
+    text-align: left;
+    width: fit-content;
+    overflow: auto;
+    padding: 5px 50px 5px 20px;
+}
+
+pre code,
+pre .line-number {
+    font:normal normal 14px/16px "Courier New",Courier,Monospace;
+    color:rgb(255, 255, 255);
+    display:block;
+}
+
+pre .line-number {
+    float:left;
+    margin:0 1em 0 -1em;
+    border-right:1px solid;
+    text-align:right;
+}
+
+pre .line-number span {
+    display:block;
+    padding:0 .5em 0 1em;
+}
+
+pre .cl {
+    display:block;
+    clear:both;
+}
+
+button {
+    background-color: #5a5a5a00;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+main {
+    margin-left: 15%;
+    text-align: center;
+}
+.button {
+    height: 45px;
+}
+
+/* sidebar */
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+.sidenav a {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: #858383fb;
+    display: block;
+    cursor: pointer;
+}
+.sidenav a:hover {
+    color: #2bff00;
+    cursor: pointer;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: rgb(65, 65, 65);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 1px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: 2px double rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: rgb(99, 99, 99);
+  }
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

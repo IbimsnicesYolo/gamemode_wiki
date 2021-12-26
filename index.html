@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Wiki for YolosRP">
+        <meta name="keywords" content="YolosRP, GMod, Wiki">
+        <meta name="author" content="Yolo">
+        <meta http-equiv="refresh" content="360">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <!--
+        <link rel="icon" href = "">
+        -->
+        <title>Wiki</title>
+    </head>
+    <body>
+        <div class="sidenav" id="nav">
+            <button type="button" class="collapsible">Infos</button>
+                <div class="content">
+                    <a class="button" onclick="loadcontent('install')">Installing the Gamemode</a>
+                    <a class="button" onclick="loadcontent('drm')">Installing the DRM</a>
+                </div>
+            <button type="button" class="collapsible">Global Functions</button>
+                <div class="content">
+                    <a class="button" onclick="loadcontent('debug')">Debug</a>
+                    <a class="button" onclick="loadcontent('base')">Yolo.Base</a>
+                </div>
+            <button type="button" class="collapsible">Hooks</button>
+                <div class="content">
+                    <a class="button" onclick="loadcontent('hooks')">Hooks</a>
+                </div>
+            <button type="button" class="collapsible">ConCommands</button>
+                <div class="content">
+                    <a class="button" onclick="loadcontent('concommmands')">as</a>
+                </div>
+        </div>
+        <main id="main"></main>
+        <script src="load_pages.js">
+        </script>
+    </body>
+</html> 
