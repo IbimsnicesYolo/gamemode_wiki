@@ -75,7 +75,13 @@ lua_run print((system.IsWindows()and"Windows"or system.IsLinux()and"Linux"or"Uns
 <txt>
 `;
 contents["debug"] = `
-<h1>YolosRP Wiki</h1>
+<h1>Debug function</h1>
+<br>Here is the Debug log function</br>
+<pre><code>Yolo.Debug.Log(log, synched)</code></pre>
+<br>log -> Log message, is not allowed to start with "\n" </br>
+<br> synched -> synced the Logmessages (choice 1 : from Server to every Client or Choice 2 : From Client to the Server)
+<pre><code>Debug = Yolo.Debug.Log</code></pre>
+<pre><code>NetWorkString: Yolo.SyncDebug</code></pre>
 
 <h2>On the Left are the accessible Categorys</h2>
 `;
